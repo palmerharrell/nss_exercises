@@ -3,8 +3,8 @@
 	font-family: Arial;
 	font-size: .8em;
 	color: white;
-	line-height: ;
-	padding: ;
+	line-height: 2em;
+	padding-left: 20px;
 }
 
 .article2 {
@@ -12,8 +12,8 @@
 	font-family: "Trebuchet MS";
 	font-size: 1.2em;
 	color: powderblue;
-	line-height: ;
-	padding: ;
+	line-height: 1.1em;
+	padding: 10px 0;
 }
 
 .article3 {
@@ -21,8 +21,8 @@
 	font-family: Georgia;
 	font-size: 1.4em;
 	color: silver;
-	line-height: ;
-	padding: ;
+	line-height: 1.2em;
+	padding-left: 30px;
 }
 
 .article4 {
@@ -30,8 +30,8 @@
 	font-family: Impact;
 	font-size: 1.5em;
 	color: chocolate;
-	line-height: ;
-	padding: ;
+	line-height: 1.3em;
+	padding: 10px 0 25px 0;
 }
 
 .article5 {
@@ -39,7 +39,7 @@
 	font-family: "Comic Sans MS";
 	font-size: 1.6em;
 	color: brown;
-	line-height: ;
-	padding: ;
+	line-height: 1.4em;
+	padding: 20px 50px;
 }
 
