@@ -1,7 +1,7 @@
 .article1 {
 	background-color: firebrick;
-	font-family: ;
-	font-size: ;
+	font-family: Arial;
+	font-size: .8em;
 	color: white;
 	line-height: ;
 	padding: ;
@@ -9,8 +9,8 @@
 
 .article2 {
 	background-color: dodgerblue;
-	font-family: ;
-	font-size: ;
+	font-family: "Trebuchet MS";
+	font-size: 1.2em;
 	color: powderblue;
 	line-height: ;
 	padding: ;
@@ -18,8 +18,8 @@
 
 .article3 {
 	background-color: seagreen;
-	font-family: ;
-	font-size: ;
+	font-family: Georgia;
+	font-size: 1.4em;
 	color: silver;
 	line-height: ;
 	padding: ;
@@ -27,8 +27,8 @@
 
 .article4 {
 	background-color: steelblue;
-	font-family: ;
-	font-size: ;
+	font-family: Impact;
+	font-size: 1.5em;
 	color: chocolate;
 	line-height: ;
 	padding: ;
@@ -36,8 +36,8 @@
 
 .article5 {
 	background-color: lightsteelblue;
-	font-family: ;
-	font-size: ;
+	font-family: "Comic Sans MS";
+	font-size: 1.6em;
 	color: brown;
 	line-height: ;
 	padding: ;
