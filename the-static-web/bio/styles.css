@@ -12,10 +12,10 @@ a {
 }
 
 a:hover {
-	color: blue;
+	color: darkslateblue;
 }
 
 .currentPage {
 	font-weight: bold;
-	color: tomato;
+	color: darkcyan;
 }
