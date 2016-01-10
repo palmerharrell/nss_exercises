@@ -11,3 +11,15 @@ nav > ul > li {
 	list-style: none;
 	padding-right: 15px;
 }
+
+.disabled {
+	color: grey;
+}
+
+a .disabled {
+	color: purple;
+}
+
+a.disabled {
+	color: purple;
+}
