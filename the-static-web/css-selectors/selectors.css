@@ -35,3 +35,11 @@ a.disabled {
 .blue {
 	color: blue;
 }
+
+.red + h4 {  /* next sibling selector */
+	background-color: red;
+}
+
+.blue + h4 {  /* next sibling selector */
+	background-color: blue;
+}
