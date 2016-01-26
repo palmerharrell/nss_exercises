@@ -17,7 +17,7 @@ for (var i = 0; i < sectionElements.length; i++) {
 }
 
 // When the mouse is over the h1 tag, the output element should contain the text "You moved your mouse over the header".
-function handleMouseOverEvent(event) {
+function handleMouseOverEvent() {
 	outputElement.innerHTML = "You moved your mouse over the header";
 }
 
@@ -26,10 +26,14 @@ document.getElementById("page-title").addEventListener("mouseover", handleMouseO
 // When the mouse leaves the h1 tag, the output element should contain the text "You left me!!".
 document.getElementById("page-title").addEventListener("mouseout", function(){
 	outputElement.innerHTML = "You left me!!";
-});
+})
 
 // When you type characters into the input field, the output element should mirror the text in the input field.
+var textInput = document.getElementById("keypress-input");
 
+textInput.addEventListener("keyup", function(){
+	outputElement.innerHTML = textInput.value;
+})
 
 // When you click the "Add color" button, the guinea-pig element's text color should change to blue.
 // When you click the "Hulkify" button, the guinea-pig element's font size should become much larger.
