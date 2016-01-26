@@ -18,7 +18,7 @@ console.log(capitalizedPlanets);
 
 // Use the filter method to create a new array that contains planets with the letter 'e'
 var ePlanets = planets.filter(function(currentItem) {
-	return currentItem.indexOf("e") !== -1;
+	return currentItem.indexOf("e") !== -1; //or > -1 or >=0   -1 means not found in array
 })
 console.log(ePlanets);
 
