@@ -31,7 +31,8 @@ console.log('Planets with an "e" in them:', ePlanets);
 var words = ["The", "early", "bird", "might", "get", "the", "worm", "but", "the", "second", "mouse", "gets", "the", "cheese"];
 
 var sentence = words.reduce(function(prevWord, currWord) {
-	return prevWord + " " + currWord;
+	// return prevWord + " " + currWord; // Standard string concatenation
+	return `${prevWord} ${currWord}`;	// "String Template" method
 })
 
 console.log("Words combined into a sentence:", sentence);
