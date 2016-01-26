@@ -17,10 +17,16 @@ for (var i = 0; i < sectionElements.length; i++) {
 }
 
 // When the mouse is over the h1 tag, the output element should contain the text "You moved your mouse over the header".
+function handleMouseOverEvent(event) {
+	outputElement.innerHTML = "You moved your mouse over the header";
+}
 
+document.getElementById("page-title").addEventListener("mouseover", handleMouseOverEvent);
 
 // When the mouse leaves the h1 tag, the output element should contain the text "You left me!!".
-
+document.getElementById("page-title").addEventListener("mouseout", function(){
+	outputElement.innerHTML = "You left me!!";
+});
 
 // When you type characters into the input field, the output element should mirror the text in the input field.
 
